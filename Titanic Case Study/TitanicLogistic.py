@@ -20,7 +20,7 @@ from sklearn.linear_model import LogisticRegression
 def TitanicLogistic():
 
     #Step 1 : Load Data
-    titanic_data=pd.read_csv('MarvellousTitanic.csv')
+    titanic_data=pd.read_csv('Titanic.csv')
 
     print("First 5 entries from the dataset")
     print(titanic_data.head())
